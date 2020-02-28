@@ -1,0 +1,1242 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my precious",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "StoreIntent",
+          "slots": [
+            {
+              "name": "object",
+              "type": "Objects"
+            },
+            {
+              "name": "room",
+              "type": "Rooms"
+            },
+            {
+              "name": "destination",
+              "type": "Destinations"
+            }
+          ],
+          "samples": [
+            "i have placed toy on dining table in dining hall",
+            "i have placed key on table in bed room",
+            "i kept {object} at {room} {destination}",
+            "i placed {object} in {room} {destination}",
+            "i have placed {object} in {room} on {destination}",
+            "i have place {object} in {room} on {destination}",
+            "i have placed {object} at {room} {destination}",
+            "{object} are  at {room} {destination}",
+            "{object} are placed at {room} {destination}",
+            "{object} is placed at {room} {destination}",
+            "{object} is at {room} {destination}",
+            "i placed {object} at {destination} on {room}",
+            "i placed {object} in {destination} on {room}",
+            "{object} is at {destination} in {room}",
+            "{object} is on  {destination} in {room}",
+            "i kept {object} in {destination} on {room}",
+            "I had placed {object} on {destination} in {room}",
+            "i had placed {object} in {destination} in {room}",
+            "I palaced {object} in {destination} at {room}",
+            "I palaced {object}  at {destination} at  {room}",
+            "i kept {object} in {destination} in {room}",
+            "i kept {object} on {destination} at {room}",
+            "I kept {object} on {destination} in {room}",
+            "I have placed {object} on {destination} in {room}",
+            "the {object} is on the {destination} in the {room}",
+            "{object} is on {destination} in  the {room}",
+            "{object} is on {destination} in {room}",
+            "{object} is on {destination} at {room}",
+            "{object} is on {destination} in bedroom",
+            "{object} pacled at {room} in {destination}",
+            "{object} placed at {room} on {destination}"
+          ]
+        },
+        {
+          "name": "ShowIntent",
+          "slots": [
+            {
+              "name": "object",
+              "type": "Objects"
+            }
+          ],
+          "samples": [
+            "{object}",
+            "where are my {object}",
+            "where is my {object}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "printer"
+              }
+            },
+            {
+              "name": {
+                "value": "carriages"
+              }
+            },
+            {
+              "name": {
+                "value": "carriage"
+              }
+            },
+            {
+              "name": {
+                "value": "spoon"
+              }
+            },
+            {
+              "name": {
+                "value": "cup"
+              }
+            },
+            {
+              "name": {
+                "value": "cooker"
+              }
+            },
+            {
+              "name": {
+                "value": "electrical charger"
+              }
+            },
+            {
+              "name": {
+                "value": "adaptor"
+              }
+            },
+            {
+              "name": {
+                "value": "cart"
+              }
+            },
+            {
+              "name": {
+                "value": "iron box"
+              }
+            },
+            {
+              "name": {
+                "value": "jute bag"
+              }
+            },
+            {
+              "name": {
+                "value": "covers"
+              }
+            },
+            {
+              "name": {
+                "value": "plank"
+              }
+            },
+            {
+              "name": {
+                "value": "key chain"
+              }
+            },
+            {
+              "name": {
+                "value": "pad"
+              }
+            },
+            {
+              "name": {
+                "value": "gel"
+              }
+            },
+            {
+              "name": {
+                "value": "hair spray"
+              }
+            },
+            {
+              "name": {
+                "value": "hair sprayer"
+              }
+            },
+            {
+              "name": {
+                "value": "devotinal books"
+              }
+            },
+            {
+              "name": {
+                "value": "devotional book"
+              }
+            },
+            {
+              "name": {
+                "value": "hair drier"
+              }
+            },
+            {
+              "name": {
+                "value": "peller"
+              }
+            },
+            {
+              "name": {
+                "value": "kinef"
+              }
+            },
+            {
+              "name": {
+                "value": "tourch light"
+              }
+            },
+            {
+              "name": {
+                "value": "college id"
+              }
+            },
+            {
+              "name": {
+                "value": "school id"
+              }
+            },
+            {
+              "name": {
+                "value": "id "
+              }
+            },
+            {
+              "name": {
+                "value": "card"
+              }
+            },
+            {
+              "name": {
+                "value": "credit card"
+              }
+            },
+            {
+              "name": {
+                "value": "debit card"
+              }
+            },
+            {
+              "name": {
+                "value": "office id"
+              }
+            },
+            {
+              "name": {
+                "value": "wedding album"
+              }
+            },
+            {
+              "name": {
+                "value": "wedding cd"
+              }
+            },
+            {
+              "name": {
+                "value": "cds"
+              }
+            },
+            {
+              "name": {
+                "value": "id card"
+              }
+            },
+            {
+              "name": {
+                "value": "dish remote"
+              }
+            },
+            {
+              "name": {
+                "value": "ac remote"
+              }
+            },
+            {
+              "name": {
+                "value": "shavingkit"
+              }
+            },
+            {
+              "name": {
+                "value": "shaving kit"
+              }
+            },
+            {
+              "name": {
+                "value": "shavingcream"
+              }
+            },
+            {
+              "name": {
+                "value": "shaving cream"
+              }
+            },
+            {
+              "name": {
+                "value": "rager"
+              }
+            },
+            {
+              "name": {
+                "value": "trimmer"
+              }
+            },
+            {
+              "name": {
+                "value": "money"
+              }
+            },
+            {
+              "name": {
+                "value": "money statements"
+              }
+            },
+            {
+              "name": {
+                "value": "water bill"
+              }
+            },
+            {
+              "name": {
+                "value": "electrical bill"
+              }
+            },
+            {
+              "name": {
+                "value": "bill"
+              }
+            },
+            {
+              "name": {
+                "value": "files"
+              }
+            },
+            {
+              "name": {
+                "value": "folder"
+              }
+            },
+            {
+              "name": {
+                "value": "mobile case"
+              }
+            },
+            {
+              "name": {
+                "value": "mobile cas"
+              }
+            },
+            {
+              "name": {
+                "value": "album"
+              }
+            },
+            {
+              "name": {
+                "value": "albums"
+              }
+            },
+            {
+              "name": {
+                "value": "toolkit"
+              }
+            },
+            {
+              "name": {
+                "value": "tool kit"
+              }
+            },
+            {
+              "name": {
+                "value": "carf kit"
+              }
+            },
+            {
+              "name": {
+                "value": "handbag"
+              }
+            },
+            {
+              "name": {
+                "value": "hand bag"
+              }
+            },
+            {
+              "name": {
+                "value": "shoes"
+              }
+            },
+            {
+              "name": {
+                "value": "shoe"
+              }
+            },
+            {
+              "name": {
+                "value": "wallets"
+              }
+            },
+            {
+              "name": {
+                "value": "bracelets"
+              }
+            },
+            {
+              "name": {
+                "value": "bracelet"
+              }
+            },
+            {
+              "name": {
+                "value": "wallet"
+              }
+            },
+            {
+              "name": {
+                "value": "watch"
+              }
+            },
+            {
+              "name": {
+                "value": "jewllary"
+              }
+            },
+            {
+              "name": {
+                "value": "gip"
+              }
+            },
+            {
+              "name": {
+                "value": "necklace"
+              }
+            },
+            {
+              "name": {
+                "value": "earrings"
+              }
+            },
+            {
+              "name": {
+                "value": "ear rings"
+              }
+            },
+            {
+              "name": {
+                "value": "earphone"
+              }
+            },
+            {
+              "name": {
+                "value": "memory card"
+              }
+            },
+            {
+              "name": {
+                "value": "sd card"
+              }
+            },
+            {
+              "name": {
+                "value": "earphones"
+              }
+            },
+            {
+              "name": {
+                "value": "speaker"
+              }
+            },
+            {
+              "name": {
+                "value": "speakers"
+              }
+            },
+            {
+              "name": {
+                "value": "pendrive"
+              }
+            },
+            {
+              "name": {
+                "value": "screwdriver"
+              }
+            },
+            {
+              "name": {
+                "value": "screw driver"
+              }
+            },
+            {
+              "name": {
+                "value": "hammer"
+              }
+            },
+            {
+              "name": {
+                "value": "radio"
+              }
+            },
+            {
+              "name": {
+                "value": "cuttingplayer"
+              }
+            },
+            {
+              "name": {
+                "value": "cutting player"
+              }
+            },
+            {
+              "name": {
+                "value": "nailcutter"
+              }
+            },
+            {
+              "name": {
+                "value": "nail cutter"
+              }
+            },
+            {
+              "name": {
+                "value": "tablet"
+              }
+            },
+            {
+              "name": {
+                "value": "cloth"
+              }
+            },
+            {
+              "name": {
+                "value": "firstaidbox"
+              }
+            },
+            {
+              "name": {
+                "value": "first aid box"
+              }
+            },
+            {
+              "name": {
+                "value": "clothes"
+              }
+            },
+            {
+              "name": {
+                "value": "sary "
+              }
+            },
+            {
+              "name": {
+                "value": "dress"
+              }
+            },
+            {
+              "name": {
+                "value": "make up kit"
+              }
+            },
+            {
+              "name": {
+                "value": "makeupkit"
+              }
+            },
+            {
+              "name": {
+                "value": "toys"
+              }
+            },
+            {
+              "name": {
+                "value": "spray"
+              }
+            },
+            {
+              "name": {
+                "value": "room spray"
+              }
+            },
+            {
+              "name": {
+                "value": "body spray"
+              }
+            },
+            {
+              "name": {
+                "value": "perfume"
+              }
+            },
+            {
+              "name": {
+                "value": "lipstick"
+              }
+            },
+            {
+              "name": {
+                "value": "belt"
+              }
+            },
+            {
+              "name": {
+                "value": "registration document"
+              }
+            },
+            {
+              "name": {
+                "value": "scissor"
+              }
+            },
+            {
+              "name": {
+                "value": "scissors"
+              }
+            },
+            {
+              "name": {
+                "value": "coamb"
+              }
+            },
+            {
+              "name": {
+                "value": "penpecil"
+              }
+            },
+            {
+              "name": {
+                "value": "niddle"
+              }
+            },
+            {
+              "name": {
+                "value": "driving licence"
+              }
+            },
+            {
+              "name": {
+                "value": "licence"
+              }
+            },
+            {
+              "name": {
+                "value": "document"
+              }
+            },
+            {
+              "name": {
+                "value": "documents"
+              }
+            },
+            {
+              "name": {
+                "value": "pancard"
+              }
+            },
+            {
+              "name": {
+                "value": "rationcard"
+              }
+            },
+            {
+              "name": {
+                "value": "adhaarcard"
+              }
+            },
+            {
+              "name": {
+                "value": "ration card"
+              }
+            },
+            {
+              "name": {
+                "value": "pan card"
+              }
+            },
+            {
+              "name": {
+                "value": "adhaar car"
+              }
+            },
+            {
+              "name": {
+                "value": "morter cycle key"
+              }
+            },
+            {
+              "name": {
+                "value": "toy"
+              }
+            },
+            {
+              "name": {
+                "value": "mobile charger"
+              }
+            },
+            {
+              "name": {
+                "value": "laptop charger"
+              }
+            },
+            {
+              "name": {
+                "value": "charger"
+              }
+            },
+            {
+              "name": {
+                "value": "plug box"
+              }
+            },
+            {
+              "name": {
+                "value": "carriage box"
+              }
+            },
+            {
+              "name": {
+                "value": "carriage boc"
+              }
+            },
+            {
+              "name": {
+                "value": "box"
+              }
+            },
+            {
+              "name": {
+                "value": "hook"
+              }
+            },
+            {
+              "name": {
+                "value": " scissors"
+              }
+            },
+            {
+              "name": {
+                "value": "banna"
+              }
+            },
+            {
+              "name": {
+                "value": "carrot"
+              }
+            },
+            {
+              "name": {
+                "value": "pencil box"
+              }
+            },
+            {
+              "name": {
+                "value": "dairy"
+              }
+            },
+            {
+              "name": {
+                "value": "book"
+              }
+            },
+            {
+              "name": {
+                "value": "bottle"
+              }
+            },
+            {
+              "name": {
+                "value": "button"
+              }
+            },
+            {
+              "name": {
+                "value": "shirt"
+              }
+            },
+            {
+              "name": {
+                "value": "board"
+              }
+            },
+            {
+              "name": {
+                "value": "rubic cube"
+              }
+            },
+            {
+              "name": {
+                "value": "back bag"
+              }
+            },
+            {
+              "name": {
+                "value": "basketball"
+              }
+            },
+            {
+              "name": {
+                "value": "rubby ball"
+              }
+            },
+            {
+              "name": {
+                "value": "mobile"
+              }
+            },
+            {
+              "name": {
+                "value": "note book"
+              }
+            },
+            {
+              "name": {
+                "value": "text book"
+              }
+            },
+            {
+              "name": {
+                "value": "sharpner"
+              }
+            },
+            {
+              "name": {
+                "value": "eariser"
+              }
+            },
+            {
+              "name": {
+                "value": "pencil"
+              }
+            },
+            {
+              "name": {
+                "value": "pen"
+              }
+            },
+            {
+              "name": {
+                "value": "school bag"
+              }
+            },
+            {
+              "name": {
+                "value": "bag"
+              }
+            },
+            {
+              "name": {
+                "value": "cycle keys"
+              }
+            },
+            {
+              "name": {
+                "value": "cycle key"
+              }
+            },
+            {
+              "name": {
+                "value": "scotter key"
+              }
+            },
+            {
+              "name": {
+                "value": "car key"
+              }
+            },
+            {
+              "name": {
+                "value": "bike key"
+              }
+            },
+            {
+              "name": {
+                "value": "scotter keys"
+              }
+            },
+            {
+              "name": {
+                "value": "car keys"
+              }
+            },
+            {
+              "name": {
+                "value": "bike keys"
+              }
+            },
+            {
+              "name": {
+                "value": "tv remote"
+              }
+            },
+            {
+              "name": {
+                "value": "remote"
+              }
+            },
+            {
+              "name": {
+                "value": "laptop"
+              }
+            },
+            {
+              "name": {
+                "value": "ball"
+              }
+            },
+            {
+              "name": {
+                "value": "football"
+              }
+            },
+            {
+              "name": {
+                "value": "qwerty keyboard"
+              }
+            },
+            {
+              "name": {
+                "value": "input device"
+              }
+            },
+            {
+              "name": {
+                "value": "keyboard"
+              }
+            },
+            {
+              "name": {
+                "value": "keypad"
+              }
+            },
+            {
+              "name": {
+                "value": "touchpad"
+              }
+            },
+            {
+              "name": {
+                "value": "mouse button"
+              }
+            },
+            {
+              "name": {
+                "value": "control key"
+              }
+            },
+            {
+              "name": {
+                "value": "computer keyboard"
+              }
+            },
+            {
+              "name": {
+                "value": "numeric keypad"
+              }
+            },
+            {
+              "name": {
+                "value": "keys"
+              }
+            },
+            {
+              "name": {
+                "value": "phone"
+              }
+            },
+            {
+              "name": {
+                "value": "one key"
+              }
+            },
+            {
+              "name": {
+                "value": "key"
+              }
+            }
+          ],
+          "name": "Objects"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "ashtrays"
+              }
+            },
+            {
+              "name": {
+                "value": "stand"
+              }
+            },
+            {
+              "name": {
+                "value": "tv stand"
+              }
+            },
+            {
+              "name": {
+                "value": "wood shelf"
+              }
+            },
+            {
+              "name": {
+                "value": "iron shelf"
+              }
+            },
+            {
+              "name": {
+                "value": "dinnig table"
+              }
+            },
+            {
+              "name": {
+                "value": "desk"
+              }
+            },
+            {
+              "name": {
+                "value": "key holder"
+              }
+            },
+            {
+              "name": {
+                "value": "swing chair"
+              }
+            },
+            {
+              "name": {
+                "value": "wheel chair"
+              }
+            },
+            {
+              "name": {
+                "value": "whell chair"
+              }
+            },
+            {
+              "name": {
+                "value": "chairs"
+              }
+            },
+            {
+              "name": {
+                "value": "chair"
+              }
+            },
+            {
+              "name": {
+                "value": "fridge"
+              }
+            },
+            {
+              "name": {
+                "value": "washing machine"
+              }
+            },
+            {
+              "name": {
+                "value": "shelfs"
+              }
+            },
+            {
+              "name": {
+                "value": "trays"
+              }
+            },
+            {
+              "name": {
+                "value": "tray"
+              }
+            },
+            {
+              "name": {
+                "value": "cupboards"
+              }
+            },
+            {
+              "name": {
+                "value": "bureau"
+              }
+            },
+            {
+              "name": {
+                "value": "countertop"
+              }
+            },
+            {
+              "name": {
+                "value": "cupboard"
+              }
+            },
+            {
+              "name": {
+                "value": "hanger"
+              }
+            },
+            {
+              "name": {
+                "value": "drawer"
+              }
+            },
+            {
+              "name": {
+                "value": "table drawer"
+              }
+            },
+            {
+              "name": {
+                "value": "drawers"
+              }
+            },
+            {
+              "name": {
+                "value": "freeze"
+              }
+            },
+            {
+              "name": {
+                "value": "sofas"
+              }
+            },
+            {
+              "name": {
+                "value": "tv"
+              }
+            },
+            {
+              "name": {
+                "value": "sofa"
+              }
+            },
+            {
+              "name": {
+                "value": "dining table"
+              }
+            },
+            {
+              "name": {
+                "value": "beds"
+              }
+            },
+            {
+              "name": {
+                "value": "bed"
+              }
+            },
+            {
+              "name": {
+                "value": "shelves"
+              }
+            },
+            {
+              "name": {
+                "value": "shelf"
+              }
+            },
+            {
+              "name": {
+                "value": "tabel"
+              }
+            }
+          ],
+          "name": "Destinations"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "hall"
+              }
+            },
+            {
+              "name": {
+                "value": "small room"
+              }
+            },
+            {
+              "name": {
+                "value": "bathroom"
+              }
+            },
+            {
+              "name": {
+                "value": "fireplace"
+              }
+            },
+            {
+              "name": {
+                "value": "hallway"
+              }
+            },
+            {
+              "name": {
+                "value": "guest room"
+              }
+            },
+            {
+              "name": {
+                "value": "second floor"
+              }
+            },
+            {
+              "name": {
+                "value": "kitchen"
+              }
+            },
+            {
+              "name": {
+                "value": "dining room"
+              }
+            },
+            {
+              "name": {
+                "value": "sitting room"
+              }
+            },
+            {
+              "name": {
+                "value": "room"
+              }
+            },
+            {
+              "name": {
+                "value": "living room"
+              }
+            },
+            {
+              "name": {
+                "value": "bedrooms"
+              }
+            },
+            {
+              "name": {
+                "value": "bedroom"
+              }
+            }
+          ],
+          "name": "Rooms"
+        }
+      ]
+    }
+  },
+  "version": "8"
+}
